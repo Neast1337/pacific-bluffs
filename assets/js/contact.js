@@ -10,7 +10,7 @@ function sendMessage(event) {
   }
   
   var request = new XMLHttpRequest();
-  request.open("POST", "https://discord.com/api/webhooks/1096750316348776560/7LeigPsNe62dELDPYnr8yEdpXn4JVechK4AreiqGZ8jz_j2tRt8S9xtTvWx-3x7eg4P9");
+  request.open("POST", "https://discord.com/api/webhooks/1124360787490766909/Rxh4QrPz-kARmIMDlGK-2Lg_eNas4cYHir51UhTxBMAgvFk2kWoqlL2bBDK3BHk8_dtl");
   request.setRequestHeader('Content-type', 'application/json');
   
   // Récupérer la valeur du champ de texte du message
