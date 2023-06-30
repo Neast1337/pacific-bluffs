@@ -30,7 +30,7 @@ function sendMessage(event) {
 
   // Vérifier si le message est un lien YouTube ou Spotify
   var youtubeRegex = /^(https?:\/\/)?(www\.)?youtube.com\/watch\?v=[\w-]{11}(&\S*)?$/;
-  var spotifyRegex = /^(https?:\/\/)?(www\.)?open.spotify.com\/track\/[a-zA-Z0-9]+$/;
+  var spotifyRegex = /^(https?:\/\/)?(www\.)?open.spotify.com\/track\/[a-zA-Z0-9]+(\?si=\S*)?$/;
   if (!youtubeRegex.test(message) && !spotifyRegex.test(message)) {
     alert("Le message doit être un lien YouTube ou Spotify !");
     return;
